@@ -21,16 +21,16 @@
 
             <div class="list_menu">
                 <ul>
-                    <li>About us</li>
-                    <li>Shop</li>
-                    <li>Contact</li>
-                    <li>Master class</li>
+                    <a href="#Aboutus"><li class="menu_li">About us</li></a>                
+                    <a href="#Shop"><li class="menu_li">Shop</li></a>
+                    <a href="#Contact"><li class="menu_li">Contact</li></a>
+                    <a href="#masterclass"><li class="menu_li">Master class</li></a>
                 </ul>
             </div>
             
             <div class="cart">
-                <img class="imgg1" src="./profile.png" alt="!!!">
-                <img class="imgg2" src="./bag-2.png" alt="!!!">
+                <label for="show"><img class="imgg1" src="./profile.png" alt="!!!"></label>
+                <label for="show2"><img class="imgg2" src="./bag-2.png" alt="!!!"></label>
             </div>
         </div>
 
@@ -64,7 +64,7 @@
 
 
 
-    <div class="wrapper2">
+    <div id="Aboutus" class="wrapper2">
 
 
         <div class="textwr">
@@ -99,19 +99,27 @@
                     <input checked type="radio" name="slider" id="switch3">
                     <input checked type="radio" name="slider" id="switch4">
                     <input checked type="radio" name="slider" id="switch5">
-           
+                    
                     <div id="slides">
                         <div id="overflow">
                             <div class="image">
-                                <article><img src="./1.png" alt=""></article>
-                                <article><img src="./2.png" alt=""></article>
-                                <article><img src="./3.png" alt=""></article>
-                                <article><img src="./4(1).png" alt=""></article>
-                                <article><img src="./5.png" alt=""></article>
+                                <div class="card1">
+                                <article><img class="imaage1" src="./1.png" alt="!!!"></article>
+                                <div class="content1">1 300 ₴</div>
+                                </div>
+                                <article><img class="imaage2" src="./2.png" alt="!!!"></article>
+                                
+                                <article><img class="imaage3" src="./3.png" alt="!!!"></article>
+                                
+                                <article><img class="imaage4" src="./4(1).png" alt="!!!"></article>
+                                
+                                <article><img class="imaage5" src="./5.png" alt="!!!"></article>
+                                
                             </div>
+                            
                         </div>
                     </div>
-           
+                
                     <div id="controls">
                         <label for="switch1"></label>
                         <label for="switch2"></label>
@@ -119,7 +127,7 @@
                         <label for="switch4"></label>
                         <label for="switch5"></label>
                     </div>
-           
+                
                     <div id="active">
                         <label for="switch1"></label>
                         <label for="switch2"></label>
@@ -130,7 +138,7 @@
                     
                 </article>
                 
-           
+                
             </div>	
         </div>
         
@@ -140,7 +148,7 @@
 
 
 
-    <div class="wrapper3">
+    <div id="Shop" class="wrapper3">
 
         <h1 class="tk1">Каталог</h1>
 
@@ -240,7 +248,7 @@
 
 
 
-        <div class="wrapper4">
+        <div id="masterclass" class="wrapper4">
 
             <h2 class="h1wr">Майстер-класс</h2>
 
@@ -286,7 +294,7 @@
                 
             </div>
 
-            <div class="block-info">
+            <div id="Contact" class="block-info">
                 <div class="info">
                     <div class="text-info">
                         
@@ -306,18 +314,98 @@
                 </div>
 
                 <div class="bttt">
-                    <div class="bt1"></div>
-                    <div class="bt2"></div>
-                    <div class="bt3"></div>
+                    <div class="bt1">
+                        <form class="number">
+                            <input class="numcountry" list="countryCodes" placeholder="+380">
+                            <datalist id="countryCodes">
+                                <img src="UkraineFlag.png" alt="!!!" width="8px" height="4px"><option value="+380">
+                                <img src="" alt="!!!" width="8px" height="4px"><option value="+34">
+                                <img src="" alt="!!!" width="8px" height="4px"><option value="+33">
+                                <img src="" alt="!!!" width="8px" height="4px"><option value="+47">
+                                <img src="" alt="!!!" width="8px" height="4px"><option value="+354">
+                            </datalist>
+                        </form>
+                        <input class="personnum" type="number" placeholder="988 44 22">
+                    </div>
+                    <div class="bt2"><input class="personname" type="text" placeholder="Anna"></div>
+                    <div class="bt3">
+                        <label for="show3"><img src="створи мрію.png" alt="!!!"></label>
+                    </div>
                 </div>
             </div>
             
         </div>
-
-
-
-
     </div>
+
+
+            
+    <input class="checkreg" type="checkbox" id="show">
+
+
+    <div class="popupregister">
+        <div class="block_black_register"></div>
+        <div class="block_register">
+            <label for="show" class="close_button"><img src="icons8-cancel-64.png" alt="!!!" width="24px" height="24px"></label>
+            <p class="register">Вхід</p>
+            <div class="buttons_login">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <input class="button_register" type="submit" value="Увійти">
+            </div>
+            <p class="text_help"><a href="">Забули пароль? </a></p>
+            <ul class="reggg">
+                <li class="li_rg"><a href=""><img src="./Group.png" alt="!!!" width="40px" height="40px"></a></li>
+                <li class="li_rg"><a href=""><img src="./Group (1).png" alt="!!!" width="40px" height="40px"></a></li>
+                <li class="li_rg"><a href=""><img src="./Group (2).png" alt="!!!" width="40px" height="40px"></a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+    
+
+    <input class="checkreg" type="checkbox" id="show2">
+
+    <div class="basked">
+        <div class="background-black"></div>
+        <div class="shop-basked">
+            <div class="text-icon-animated">
+                <p class="corzina">Корзина</p>
+                <IMG SRC="./shopping-cart.gif" alt="!!!" width="40px" height="40px">
+            </div>
+            <label for="show2" class="close_button2"><img src="icons8-cancel-64.png" alt="!!!" width="24px" height="24px"></label>
+            <div class="line-basked"></div>
+            <div class="empty-basked">
+                <img src="shopping-bag.png" alt="!!!" width="150px" height="150px">
+                <p class="empty-bag">Корзина порожня </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <input class="checkreg" type="checkbox" id="show3">
+
+    <div class="application">
+        <div class="background-black-application"></div>
+        <div class="block-application">
+            <label for="show3" class="close_button3"><img src="icons8-cancel-64.png" alt="!!!" width="24px" height="24px"></label>
+            <div class="textapplication">
+                <p class="h1textt">Дякуємо за вашу заявку!</p>
+                <p class="texttdzankyy">Ми зв'яжемося з вами найближчим часом для підтвердження вашого участі в майстер-класі.</p>
+            </div>
+            <img class="catgif" src="Untitled video - Made with Clipchamp.gif" alt="!!!" width="150px" height= "80px">
+        </div>
+    </div>
+
+
+    
+
+
+    
+    
     
 </body>
 </html>
